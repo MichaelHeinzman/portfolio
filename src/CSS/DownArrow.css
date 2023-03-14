@@ -1,0 +1,31 @@
+.down-arrow {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  cursor: pointer;
+  opacity: 0;
+  animation: fadeInAndBounce 2s ease-in-out infinite;
+  padding-bottom: 20px;
+}
+
+@keyframes fadeInAndBounce {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(-10px);
+  }
+  70% {
+    transform: translateY(5px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.fade-in-bounce {
+  opacity: 0;
+  animation: fadeInAndBounce 2s forwards;
+}
