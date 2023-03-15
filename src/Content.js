@@ -1,25 +1,32 @@
-import "./CSS/Content.css";
 import AboutMe from "./Pages/AboutMe";
 import Home from "./Pages/Home";
 import Portfolio from "./Pages/Portfolio";
 import Contact from "./Pages/Contact";
+import { Grid } from "@mui/material";
 
 const Content = ({ menuIsOpen, openMenu, closeMenu }) => {
   return (
-    <div
+    <Grid
+      container
       className={`content ${menuIsOpen ? "scaled" : ""}`}
       onClick={() => menuIsOpen && closeMenu()}
+      justifyContent="center"
+      alignItems="center"
     >
       {/* Header */}
-      <div className="header">
-        <div className="content-title">Michael.dev</div>
-        <img
-          src="/Menubutton.svg"
-          className={`menu-button ${menuIsOpen ? "inactive" : ""}`}
-          alt="menu button"
-          onClick={openMenu}
-        />
-      </div>
+      <Grid className="header">
+        <Grid item container xs={6} className="title small">
+          Michael.dev
+        </Grid>
+        <Grid item container xs={6} justifyContent="flex-end">
+          <img
+            src="/Menubutton.svg"
+            className={`menu-button ${menuIsOpen ? "inactive" : ""}`}
+            alt="menu button"
+            onClick={openMenu}
+          />
+        </Grid>
+      </Grid>
 
       {/* Home */}
       <Home />
@@ -29,7 +36,7 @@ const Content = ({ menuIsOpen, openMenu, closeMenu }) => {
       <Portfolio />
       {/* Contact */}
       <Contact />
-    </div>
+    </Grid>
   );
 };
 

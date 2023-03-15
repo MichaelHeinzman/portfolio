@@ -1,6 +1,5 @@
 import { Grid } from "@mui/material";
 import React from "react";
-import "../CSS/ProfilePic.css";
 const ProfilePic = () => {
   return (
     <Grid

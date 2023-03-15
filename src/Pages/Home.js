@@ -1,7 +1,9 @@
 import { Grid } from "@mui/material";
 import { Box } from "@mui/system";
 import React from "react";
+import LayoutHelper from "../Components/LayoutHelper";
 import ProfilePic from "../Components/ProfilePic";
+import TextLayoutHelper from "../Components/TextLayoutHelper";
 const Home = () => {
   const iconStyle = {
     alignItems: "center",
@@ -15,24 +17,12 @@ const Home = () => {
     width: "3.5rem",
   };
   return (
-    <Grid
-      container
-      id="Home"
-      padding={3}
-      paddingTop={8}
-      spacing={0}
-      className="backgroundOne"
-      justifyContent="center"
-      alignItems="center"
-      height={{ md: "100vh" }}
-    >
+    <LayoutHelper id="Home" background fullView>
       {/* Header */}
       <Grid
         item
         xs={12}
-        md={8}
         container
-        direction="row"
         justifyContent={{ xs: "center", md: "center" }}
         alignItems={{ xs: "center", md: "center" }}
         height={{ md: "70%" }}
@@ -43,36 +33,17 @@ const Home = () => {
           item
           container
           xs={12}
-          md={6}
+          md={7}
           order={{ xs: 2, md: 1 }}
-          height={{ xs: "50vh", md: "55%" }}
           justifyContent={{ xs: "center" }}
           alignItems={{ xs: "flex-start" }}
-          padding={{ md: 3 }}
+          gap={3}
         >
-          <Grid
-            item
-            container
-            xs={12}
-            justifyContent={{ xs: "center", md: "flex-start" }}
-            alignItems="center"
-            className="title"
-            textAlign={{ md: "left" }}
-          >
-            React Developer
-          </Grid>
-          <Grid
-            item
-            container
-            xs={12}
-            justifyContent={{ xs: "center", lg: "flex-start" }}
-            alignItems="center"
+          <TextLayoutHelper text="React Developer" className="title" />
+          <TextLayoutHelper
+            text="Hi, I'm Michael Heinzman. A passionate React Developer based in Melbourne, Florida."
             className="text"
-            textAlign={{ md: "left" }}
-          >
-            Hi, I'm Michael Heinzman. A passionate React Developer based in
-            Melbourne, Florida.
-          </Grid>
+          />
           <Grid
             item
             container
@@ -91,11 +62,10 @@ const Home = () => {
           item
           container
           xs={12}
-          md={6}
+          md={5}
           order={{ xs: 1, md: 2 }}
-          justifyContent="center"
+          justifyContent={{ xs: "center", md: "flex-end" }}
           alignItems="center"
-          height={{ xs: "50vh", md: "70%" }}
         >
           <ProfilePic />
         </Grid>
@@ -106,11 +76,10 @@ const Home = () => {
         item
         container
         xs={12}
-        md={8}
         justifyContent={{ xs: "center", md: "flex-start" }}
+        alignItems="center"
         marginBottom={{ xs: 8 }}
-        height={{ xs: "40vh", md: "30%" }}
-        padding={{ md: 3 }}
+        height={{ xs: "40vh", md: "20vh" }}
         paddingTop={{ xs: 2 }}
       >
         <Grid
@@ -120,7 +89,6 @@ const Home = () => {
           md={1.2}
           justifyContent={{ xs: "center", md: "flex-start" }}
           alignItems="center"
-          height={{ md: "100%" }}
           marginRight={{ md: 3 }}
         >
           <Grid
@@ -129,7 +97,7 @@ const Home = () => {
             sx={{
               borderBottom: { xs: "2px solid rgba(45,46,50,.5)", md: "none" },
               borderRight: { xs: "none", md: "2px solid rgba(45,46,50,.5)" },
-              marginBottom: { xs: "3rem" },
+              marginBottom: { xs: "3rem", md: "0rem" },
               marginRight: "0",
               paddingRight: "0",
               fontFamily: "Mulish,sans-serif",
@@ -137,6 +105,7 @@ const Home = () => {
               color: "#2d2e32",
               textAlign: { xs: "center", md: "left" },
             }}
+            height={{ md: "100%" }}
           >
             Tech Stack
           </Grid>
@@ -147,11 +116,10 @@ const Home = () => {
           container
           md={8}
           xs={12}
-          justifyContent="center"
+          justifyContent={{ xs: "center", md: "flex-start" }}
           alignItems="center"
           gap={3}
           flexWrap="wrap"
-          height={{ md: "100%" }}
         >
           <Box sx={iconStyle}>
             <img src="/html.svg" alt="html" className="tech-icon" />
@@ -179,7 +147,7 @@ const Home = () => {
           </Box>
         </Grid>
       </Grid>
-    </Grid>
+    </LayoutHelper>
   );
 };
 

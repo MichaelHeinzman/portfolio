@@ -1,29 +1,32 @@
 import { Grid } from "@mui/material";
 import React from "react";
 
-const Project = ({ link, image, description, title }) => {
+const Project = ({ link, image, description, title, order }) => {
   return (
     <Grid
       item
       container
       xs={12}
+      md={12}
       className="backgroundTwo shadow"
       padding={3}
       borderRadius={5}
-      minHeight="30rem"
+      minHeight="20rem"
     >
       <Grid
         item
         container
         xs={12}
+        md={6}
         borderRadius={5}
         overflow="hidden"
         className="shadow"
         height="auto"
+        order={{ md: order && 2 }}
       >
         <img src={image} alt="pokedex project" className="image" />
       </Grid>
-      <Grid item xs={12}>
+      <Grid item xs={12} md={6}>
         <Grid
           item
           container

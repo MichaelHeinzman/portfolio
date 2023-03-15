@@ -1,5 +1,4 @@
 import React from "react";
-import "./CSS/Menu.css";
 const Menu = ({ closeMenu, menu }) => {
   const tabClicked = (link, event) => {
     event.preventDefault();
