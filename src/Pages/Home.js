@@ -1,48 +1,105 @@
+import { Grid } from "@mui/material";
 import React from "react";
 import DownArrow from "../Components/DownArrow";
+import ProfilePic from "../Components/ProfilePic";
 import "../CSS/Home.css";
 const Home = ({ homeRef, activeSelection }) => {
   return (
-    <div id="Home" className="home-section home" ref={homeRef}>
-      <div className="home-header">
-        <h1>React Developer</h1>
-        <div className="home-text">
-          Hi, I'm Michael Heinzman, a skilled React Developer based in
-          Melbourne, Florida with over five years of experience building complex
-          and scalable applications. My passion for React development is
-          reflected in my track record of delivering innovative solutions that
-          meet business requirements and exceed user expectations. I hold a
-          Masters of Software Engineering from the Florida Institute of
-          Technology and a Bachelors in Information Technology from the
-          University of Central Florida, where I gained a deep understanding of
-          software engineering principles and best practices.
-        </div>
-        <div className="home-header-icons">
-          <img src="/linkedinIcon.svg" alt="linkedin" className="icon" />
-          <img src="/githubIcon.svg" alt="github" className="icon" />
-        </div>
-      </div>
+    <Grid
+      container
+      id="Home"
+      ref={homeRef}
+      padding={3}
+      paddingTop={5}
+      spacing={0}
+      backgroundColor="#f9f9f9"
+    >
+      {/* Header */}
+      <Grid
+        item
+        xs={12}
+        container
+        direction={{ xs: "row", lg: "column" }}
+        justifyContent={{ xs: "center" }}
+      >
+        {/* Title and Text */}
+        <Grid
+          item
+          container
+          xs={12}
+          order={{ xs: 2 }}
+          height="50vh"
+          justifyContent={{ xs: "center" }}
+          alignItems={{ xs: "flex-start" }}
+        >
+          <Grid
+            item
+            container
+            xs={12}
+            justifyContent={{ xs: "center", lg: "flex-start" }}
+            alignItems="center"
+            className="home-title"
+          >
+            React Developer
+          </Grid>
+          <Grid
+            item
+            container
+            xs={12}
+            justifyContent={{ xs: "center", lg: "flex-start" }}
+            alignItems="center"
+            className="home-text"
+          >
+            Hi, I'm Michael Heinzman. A passionate React Developer based in
+            Melbourne, Florida.
+          </Grid>
+          <Grid
+            item
+            container
+            xs={12}
+            gap={2}
+            justifyContent={{ xs: "center", lg: "flex-start" }}
+            alignItems="center"
+          >
+            <img src="/linkedinIcon.svg" alt="linkedin" className="icon" />
+            <img src="/githubIcon.svg" alt="github" className="icon" />
+          </Grid>
+        </Grid>
 
-      <div className="home-tech-stack">
-        <h3>Tech Stack |</h3>
-        <div className="home-tech-icons">
-          <img src="/html.svg" alt="html" className="tech-icon" />
-          <img src="/css.svg" alt="css" className="tech-icon" />
-          <img src="/js.svg" alt="js" className="tech-icon" />
-          <img src="/typescript.svg" alt="typescript" className="tech-icon" />
-          <img src="/react.svg" alt="react" className="tech-icon" />
-          <img src="/aws.svg" alt="aws" className="tech-icon" />
-          <img src="/firebase.svg" alt="firebase" className="tech-icon" />
-          <img src="/python.svg" alt="python" className="tech-icon" />
+        {/* Hero Picture */}
+        <Grid
+          item
+          container
+          xs={12}
+          order={{ xs: 1, lg: 2 }}
+          justifyContent="center"
+          alignItems="center"
+          height="50vh"
+        >
+          <ProfilePic />
+        </Grid>
+      </Grid>
+      <Grid item container xs={12} backgroundColor="blue">
+        <div className="home-tech-stack">
+          <h3 className="home-tech-title">Tech Stack</h3>
+          <div className="home-tech-icons">
+            <img src="/html.svg" alt="html" className="tech-icon" />
+            <img src="/css.svg" alt="css" className="tech-icon" />
+            <img src="/js.svg" alt="js" className="tech-icon" />
+            <img src="/typescript.svg" alt="typescript" className="tech-icon" />
+            <img src="/react.svg" alt="react" className="tech-icon" />
+            <img src="/aws.svg" alt="aws" className="tech-icon" />
+            <img src="/firebase.svg" alt="firebase" className="tech-icon" />
+            <img src="/python.svg" alt="python" className="tech-icon" />
+          </div>
         </div>
-      </div>
-
+      </Grid>
       <DownArrow
         page="Home"
         activeSelection={activeSelection}
         nextPage="#AboutMe"
       />
-    </div>
+    </Grid>
   );
 };
 

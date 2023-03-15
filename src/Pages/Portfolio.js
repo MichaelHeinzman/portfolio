@@ -5,11 +5,7 @@ import "../CSS/Portfolio.css";
 
 const Portfolio = ({ portfolioRef, activeSelection }) => {
   return (
-    <div
-      id="Portfolio"
-      className="portfolio-section portfolio"
-      ref={portfolioRef}
-    >
+    <div id="Portfolio" className="portfolio" ref={portfolioRef}>
       <h1 className="portfolio-title">Portfolio</h1>
       <div className="portfolio-projects">
         <Project

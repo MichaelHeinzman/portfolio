@@ -3,12 +3,7 @@ import DownArrow from "../Components/DownArrow";
 import "../CSS/AboutMe.css";
 const AboutMe = ({ activeSelection, aboutMeRef }) => {
   return (
-    <div id="AboutMe" className="about-section about" ref={aboutMeRef}>
-      <img
-        src="/myPicture.jpg"
-        alt="Michael Heinzman"
-        className="about-photo"
-      />
+    <div id="AboutMe" className="about" ref={aboutMeRef}>
       <h1 className="about-title">About Me</h1>
       <h3 className="about-text">
         As a junior React Developer, I possess an impressive arsenal of skills
