@@ -1,29 +1,76 @@
+import { Grid } from "@mui/material";
 import React from "react";
-import "../CSS/Project.css";
 
 const Project = ({ link, image, description, title }) => {
   return (
-    <div className="portfolio-project">
-      <img src={image} alt="pokedex project" className="project-picture" />
-      <div className="project-description">
-        <h3 className="project-title">{title}</h3>
-        <div className="portfolio-text">{description}</div>
-
-        <div className="project-buttons">
-          <div className="icon-container">
-            <img src="/githubIcon.svg" alt="github code" className="icon" />
-          </div>
-          <a
-            href={link}
-            target="_blank"
-            rel="noreferrer"
-            className="portfolio-text"
+    <Grid
+      item
+      container
+      xs={12}
+      className="backgroundTwo shadow"
+      padding={3}
+      borderRadius={5}
+      minHeight="30rem"
+    >
+      <Grid
+        item
+        container
+        xs={12}
+        borderRadius={5}
+        overflow="hidden"
+        className="shadow"
+        height="auto"
+      >
+        <img src={image} alt="pokedex project" className="image" />
+      </Grid>
+      <Grid item xs={12}>
+        <Grid
+          item
+          container
+          xs={12}
+          className="title small"
+          justifyContent="center"
+          alignItems="center"
+          height="auto"
+          padding={1}
+          paddingTop={3}
+        >
+          {title}
+        </Grid>
+        <Grid item xs={12} className="subtext" height="auto" padding={2}>
+          {description}
+        </Grid>
+        <Grid
+          item
+          container
+          xs={12}
+          justifyContent="space-around"
+          alignItems="center"
+          paddingTop={3}
+        >
+          <Grid
+            item
+            container
+            xs={6}
+            className="icon-container"
+            justifyContent="center"
           >
-            Live Demo
-          </a>
-        </div>
-      </div>
-    </div>
+            <img src="/githubIcon.svg" alt="github code" className="icon" />
+          </Grid>
+          <Grid item container xs={6} justifyContent="center">
+            <a
+              href={link}
+              target="_blank"
+              rel="noreferrer"
+              className="portfolio-text"
+            >
+              Live Demo
+            </a>
+          </Grid>
+        </Grid>
+        <div className="project-buttons"></div>
+      </Grid>
+    </Grid>
   );
 };
 

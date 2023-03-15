@@ -1,0 +1,53 @@
+.title {
+  font-size: 3.3rem;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #2d2e32;
+  font-weight: bold;
+}
+.title.small {
+  font-size: 1.5rem;
+}
+
+.subtitle {
+  font-size: 2rem;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #f88d3a;
+  font-weight: bold;
+}
+.text {
+  color: #767676;
+  font-family: Mulish, sans-serif;
+  font-size: 1.3rem;
+  font-weight: 500;
+  line-height: 1.6;
+  text-align: center;
+}
+.subtext {
+  color: #767676;
+  font-family: Mulish, sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.backgroundOne {
+  background-color: #f9f9f9;
+}
+
+.backgroundTwo {
+  background-color: #ffffff;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+}
+
+.shadow {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.09);
+}
