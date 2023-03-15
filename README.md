@@ -9,5 +9,6 @@ https://hip6g7mrvc.us-east-1.awsapprunner.com/
 ## **Details**     
   Language : **JavaScript**     
   Framework : **React**          
-  Design Tool : **Figma**      
+  Design Tool : **Figma**   
+  Deployed Using: **AWS App Runner**
    
