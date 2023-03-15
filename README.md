@@ -1,8 +1,9 @@
 # Portfolio Site
-**Not finished, will be done by May 2023. It's mostly done on mobile, I still need to adjust sizes and design it for the desktop and tablet versions.**
+**Not finished, will be done by May 2023. It's mostly done, I just need to add in animations and link the buttons.**
 
 ## **Usage**
-For my resume, it doesn't have a domain setup yet.
+https://hip6g7mrvc.us-east-1.awsapprunner.com/
+
 
 ## **Details**     
   Language : **JavaScript**     
