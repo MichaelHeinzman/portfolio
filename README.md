@@ -3,7 +3,7 @@
 
 ## **Usage**
 You can view my portfolio here:
-https://hip6g7mrvc.us-east-1.awsapprunner.com/
+[Click Here to View Portfolio](https://hip6g7mrvc.us-east-1.awsapprunner.com/)
 
 
 ## **Details**     
