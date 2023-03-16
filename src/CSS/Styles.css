@@ -95,7 +95,7 @@
 
 /* Header */
 .header {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -118,6 +118,7 @@
   transform: translateX(-20px);
 }
 
+/* Content */
 .content {
   z-index: 5;
   background-color: #ffffff;
