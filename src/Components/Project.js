@@ -24,7 +24,7 @@ const Project = ({ link, image, description, title, order }) => {
         height="auto"
         order={{ md: order && 2 }}
       >
-        <img src={image} alt="pokedex project" className="image" />
+        <img src={image} alt={title} className="image" />
       </Grid>
       <Grid item xs={12} md={6}>
         <Grid
