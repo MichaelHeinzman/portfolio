@@ -18,16 +18,44 @@ const Portfolio = () => {
         gap={5}
       >
         <Project
-          image="/Pokedex.png"
-          link="https://xgkgmayj3k.us-east-1.awsapprunner.com/"
-          title="Pokedex"
-          description="A Pokedex website that fetches pokemon from the PokeAPI and loads them into a searcheable list."
+          image=""
+          github="https://github.com/MichaelHeinzman/FT-Capstone-Project"
+          title="FT Capstone Project"
+          description="Designed and developed a React Native application for calendar and time management. Applied best
+          practices in software engineering, including a comprehensive report documenting the project's requirements,
+          design, and testing. Demonstrated strong skills in project management and learning new technologies."
         />
         <Project
-          image="https://vercel.com/e26051ee-d6f9-4298-950a-331cc4e54d09"
+          image=""
+          github="https://github.com/MichaelHeinzman/Automatic-NPG-Interface"
+          title="Automatic Network Packet Generator"
+          description="Automatic Network Packet Generator made with Python, a tool to generate and send different types of network packets. This
+          tool is useful for network administrators, penetration testers and security professionals who want to generate
+          and send packets for testing purposes. This project contains a user interface that allows the user to configure
+          and generate different types of network packets."
+        />
+        <Project
+          image="/NetflixClone.png"
           link="https://netflix-clone-gilt-nu.vercel.app/"
+          github="https://github.com/MichaelHeinzman/netflix-clone"
           title="Netflix Clone"
-          description=""
+          description="React web application that was developed using Next.js and Tailwind. Mimics Netflix design to gain a better understanding of how Next.js and Tailwind work."
+        />
+        <Project
+          image="/ReactAdmin.png"
+          link="https://gmyxrae9id.us-east-1.awsapprunner.com/"
+          github="https://github.com/MichaelHeinzman/react-admin"
+          title="React Admin"
+          description="Created an administration site with JavaScript and Material UI, implementing advanced techniques for a
+          Material UI theme with both light and dark modes."
+        />
+        <Project
+          image="/Pokedex.png"
+          link="https://xgkgmayj3k.us-east-1.awsapprunner.com/"
+          github="https://github.com/MichaelHeinzman/pokedex"
+          title="Pokedex"
+          description="Built a simple app in JavaScript and React for loading Pokemon data from the PokiAPI. Used Material UI for
+          styling and React SWR for data loading."
         />
       </Grid>
     </LayoutHelper>

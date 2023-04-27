@@ -6,7 +6,6 @@ const LayoutHelper = ({ id, background, children, width, fullView }) => {
     <Grid
       id={id}
       container
-      height={{ md: fullView ? "100vh" : "auto" }}
       minHeight={{ xs: fullView ? "100vh" : "auto" }}
       padding={3}
       paddingTop={8}

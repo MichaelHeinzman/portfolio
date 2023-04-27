@@ -1,7 +1,7 @@
-import { Grid } from "@mui/material";
+import { Grid, Typography } from "@mui/material";
 import React from "react";
 
-const Project = ({ link, image, description, title, order }) => {
+const Project = ({ link, image, description, title, order, github }) => {
   return (
     <Grid
       item
@@ -12,21 +12,31 @@ const Project = ({ link, image, description, title, order }) => {
       padding={3}
       borderRadius={5}
       minHeight="20rem"
+      justifyContent="center"
     >
+      {image !== "" && (
+        <Grid
+          item
+          container
+          xs={12}
+          md={6}
+          borderRadius={5}
+          overflow="hidden"
+          className="shadow"
+          height="auto"
+          order={{ md: order && 2 }}
+        >
+          <img src={image} alt={title} className="image" />
+        </Grid>
+      )}
+
       <Grid
         item
         container
         xs={12}
-        md={6}
-        borderRadius={5}
-        overflow="hidden"
-        className="shadow"
-        height="auto"
-        order={{ md: order && 2 }}
+        md={image !== "" ? 6 : 8}
+        justifyContent="center"
       >
-        <img src={image} alt={title} className="image" />
-      </Grid>
-      <Grid item xs={12} md={6}>
         <Grid
           item
           container
@@ -40,8 +50,15 @@ const Project = ({ link, image, description, title, order }) => {
         >
           {title}
         </Grid>
-        <Grid item xs={12} className="subtext" height="auto" padding={2}>
-          {description}
+        <Grid
+          item
+          container
+          xs={12}
+          className="subtext"
+          height="auto"
+          padding={2}
+        >
+          <Typography textAlign="center">{description}</Typography>
         </Grid>
         <Grid
           item
@@ -58,18 +75,22 @@ const Project = ({ link, image, description, title, order }) => {
             className="icon-container"
             justifyContent="center"
           >
-            <img src="/githubIcon.svg" alt="github code" className="icon" />
-          </Grid>
-          <Grid item container xs={6} justifyContent="center">
-            <a
-              href={link}
-              target="_blank"
-              rel="noreferrer"
-              className="portfolio-text"
-            >
-              Live Demo
+            <a href={github} target="_blank" rel="noreferrer">
+              <img src="/githubIcon.svg" alt="github code" className="icon" />
             </a>
           </Grid>
+          {link && (
+            <Grid item container xs={6} justifyContent="center">
+              <a
+                href={link}
+                target="_blank"
+                rel="noreferrer"
+                className="portfolio-text"
+              >
+                Live Demo
+              </a>
+            </Grid>
+          )}
         </Grid>
         <div className="project-buttons"></div>
       </Grid>

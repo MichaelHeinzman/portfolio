@@ -1,4 +1,4 @@
-import { Grid } from "@mui/material";
+import { Button, Grid, Link } from "@mui/material";
 import { Box } from "@mui/system";
 import React from "react";
 import LayoutHelper from "../Components/LayoutHelper";
@@ -16,6 +16,13 @@ const Home = () => {
     justifyContent: "center",
     width: "3.5rem",
   };
+
+  const handleDownloadResume = () => {
+    const resumeURL =
+      "https://drive.google.com/file/d/1qCeqauomAGLBHgf6gvzyzYxlnDpi1VG8/view?usp=sharing";
+    window.open(resumeURL, "_blank");
+  };
+
   return (
     <LayoutHelper id="Home" background fullView>
       {/* Header */}
@@ -48,12 +55,52 @@ const Home = () => {
             item
             container
             xs={12}
-            gap={2}
-            justifyContent={{ xs: "center", lg: "flex-start" }}
+            gap={{ xs: 3, sm: 0 }}
+            justifyContent="space-between"
             alignItems="center"
           >
-            <img src="/linkedinIcon.svg" alt="linkedin" className="icon" />
-            <img src="/githubIcon.svg" alt="github" className="icon" />
+            <Grid
+              item
+              container
+              xs={12}
+              sm={6}
+              gap={2}
+              justifyContent={{ xs: "center", lg: "flex-start" }}
+            >
+              <a
+                href="https://www.linkedin.com/in/michael-heinzman-00499715a/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src="/linkedinIcon.svg" alt="linkedin" className="icon" />
+              </a>
+              <a
+                href="https://github.com/MichaelHeinzman"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src="/githubIcon.svg" alt="github" className="icon" />
+              </a>
+            </Grid>
+            <Grid
+              item
+              container
+              xs={12}
+              sm={6}
+              justifyContent={{ xs: "center", lg: "flex-end" }}
+            >
+              <Button
+                sx={{
+                  backgroundColor: "white",
+                  boxShadow: "0 0 10px rgba(0, 0, 0, 0.09)",
+                  color: "#f7c075",
+                  fontWeight: "bold",
+                }}
+                onClick={handleDownloadResume}
+              >
+                Download Resume
+              </Button>
+            </Grid>
           </Grid>
         </Grid>
 
