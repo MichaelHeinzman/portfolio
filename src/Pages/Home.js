@@ -40,7 +40,8 @@ const Home = () => {
           item
           container
           xs={12}
-          md={7}
+          md={6}
+          lg={6}
           order={{ xs: 2, md: 1 }}
           justifyContent={{ xs: "center" }}
           alignItems={{ xs: "flex-start" }}
@@ -65,7 +66,7 @@ const Home = () => {
               xs={12}
               sm={6}
               gap={2}
-              justifyContent={{ xs: "center", lg: "flex-start" }}
+              justifyContent={{ xs: "center", md: "flex-start" }}
             >
               <a
                 href="https://www.linkedin.com/in/michael-heinzman-00499715a/"
@@ -87,7 +88,7 @@ const Home = () => {
               container
               xs={12}
               sm={6}
-              justifyContent={{ xs: "center", lg: "flex-end" }}
+              justifyContent={{ xs: "center", md: "flex-end" }}
             >
               <Button
                 sx={{
@@ -109,7 +110,8 @@ const Home = () => {
           item
           container
           xs={12}
-          md={5}
+          md={6}
+          lg={6}
           order={{ xs: 1, md: 2 }}
           justifyContent={{ xs: "center", md: "flex-end" }}
           alignItems="center"

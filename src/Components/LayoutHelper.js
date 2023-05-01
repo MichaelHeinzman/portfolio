@@ -17,7 +17,8 @@ const LayoutHelper = ({ id, background, children, width, fullView }) => {
         item
         container
         xs={12}
-        md={width ? width : 6}
+        md={width ? width : 8}
+        lg={width ? width : 7}
         justifyContent="center"
         alignItems="flex-start"
         height="100%"

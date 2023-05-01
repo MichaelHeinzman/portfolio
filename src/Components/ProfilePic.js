@@ -7,15 +7,15 @@ const ProfilePic = () => {
       justifyContent="center"
       alignItems="center"
       sx={{
-        height: "340px",
-        width: "340px",
+        height: { lg: "340px", xs: "300px" },
+        width: { lg: "340px", xs: "300px" },
       }}
     >
       <Grid
         container
         sx={{
-          height: "300px",
-          width: "300px",
+          height: { lg: "300px", xs: "250px" },
+          width: { lg: "300px", xs: "250px" },
           boxShadow: "inset 0 10px 20px rgba(0, 0, 0, 0.5)",
           overflow: "hidden",
           backgroundColor: "#f9f9f9",
