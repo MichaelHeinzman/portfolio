@@ -19,7 +19,7 @@ const Home = () => {
 
   const handleDownloadResume = () => {
     const resumeURL =
-      "https://drive.google.com/file/d/1qCeqauomAGLBHgf6gvzyzYxlnDpi1VG8/view?usp=sharing";
+      "https://drive.google.com/file/d/1qUAGQ9ukjGznwP5nbQ2FK22_J7fv-TUJ/view?usp=sharing";
     window.open(resumeURL, "_blank");
   };
 
