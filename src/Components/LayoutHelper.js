@@ -22,7 +22,8 @@ const LayoutHelper = ({ id, background, children, width, fullView }) => {
         justifyContent="center"
         alignItems="flex-start"
         height="100%"
-        gap={1}
+        gap={5}
+        marginBottom={5}
       >
         {children}
       </Grid>
