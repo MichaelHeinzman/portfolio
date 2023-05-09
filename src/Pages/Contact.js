@@ -90,7 +90,7 @@ const Contact = () => {
             maxHeight="20%"
           >
             <Box sx={iconStyle}>
-              <img src="/Cell.svg" alt="python" className="tech-icon" />
+              <img src="/cell.svg" alt="python" className="tech-icon" />
             </Box>
           </Grid>
           <Grid item xs={12} sx={{ cursor: "pointer" }} height="80%" p={3}>
