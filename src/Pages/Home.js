@@ -47,9 +47,9 @@ const Home = () => {
           alignItems={{ xs: "flex-start" }}
           gap={3}
         >
-          <TextLayoutHelper text="React Developer" className="title" />
+          <TextLayoutHelper text="Software Engineer" className="title" />
           <TextLayoutHelper
-            text="Hi, I'm Michael Heinzman. A passionate React Developer based in Melbourne, Florida."
+            text="Hi, I'm Michael Heinzman. A passionate Software Engineer based in Melbourne, Florida."
             className="text"
           />
           <Grid
