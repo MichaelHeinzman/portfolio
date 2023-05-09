@@ -25,7 +25,8 @@ const Contact = () => {
         <Grid
           item
           container
-          xs={5}
+          xs={12}
+          md={5}
           className="backgroundTwo shadow"
           padding={3}
           borderRadius={5}
@@ -66,7 +67,8 @@ const Contact = () => {
         <Grid
           item
           container
-          xs={5}
+          xs={12}
+          md={5}
           className="backgroundTwo shadow"
           padding={3}
           borderRadius={5}
