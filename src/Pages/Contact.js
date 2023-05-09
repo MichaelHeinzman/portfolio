@@ -50,18 +50,22 @@ const Contact = () => {
             xs={12}
             onClick={() => handleEmailClick("mheinzman2017@gmail.com")}
             sx={{ cursor: "pointer" }}
+            height="40%"
+            p={3}
           >
-            <Typography fontWeight="bold">Primary</Typography>
-            <Typography>mheinzman2017@gmail.com</Typography>
+            <div className="title small">Primary</div>
+            <div className="subtext">mheinzman2017@gmail.com</div>
           </Grid>
           <Grid
             item
             xs={12}
             sx={{ cursor: "pointer" }}
             onClick={() => handleEmailClick("seth@heinzman.net")}
+            height="40%"
+            p={3}
           >
-            <Typography fontWeight="bold">Personal</Typography>
-            <Typography>seth@heinzman.net</Typography>
+            <div className="title small">Personal</div>
+            <div className="subtext">seth@heinzman.net</div>
           </Grid>
         </Grid>
         <Grid
@@ -74,6 +78,7 @@ const Contact = () => {
           borderRadius={5}
           minHeight="20rem"
           justifyContent="center"
+          alignItems="flex-start"
         >
           <Grid
             item
@@ -81,9 +86,16 @@ const Contact = () => {
             xs={12}
             justifyContent="center"
             alignItems="center"
+            height="auto"
             maxHeight="20%"
           >
-            <Box sx={iconStyle}></Box>
+            <Box sx={iconStyle}>
+              <img src="/Cell.svg" alt="python" className="tech-icon" />
+            </Box>
+          </Grid>
+          <Grid item xs={12} sx={{ cursor: "pointer" }} height="80%" p={3}>
+            <div className="title small">Personal</div>
+            <div className="subtext">817-733-8494</div>
           </Grid>
         </Grid>
       </Grid>

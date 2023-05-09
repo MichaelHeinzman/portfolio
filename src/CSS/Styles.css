@@ -6,8 +6,9 @@
   color: #2d2e32;
   font-weight: bold;
 }
-.title.small {
+.small {
   font-size: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .subtitle {
