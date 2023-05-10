@@ -35,6 +35,17 @@ const Portfolio = () => {
           and generate different types of network packets."
         />
         <Project
+          image=""
+          github="https://github.com/MichaelHeinzman/Software-Architecture-and-Design"
+          title="Student Support App (Pseudocode with Java)"
+          description="In collaboration with my team, we leveraged software engineering methodologies to model and document the system's 
+          architecture and functionality. This included developing fully dressed use cases, domain diagrams, system sequence diagrams, 
+          sequence diagrams, and class diagrams. These artifacts showcased our ability to analyze and represent complex systems effectively.
+
+          To lay the foundation for implementation, we utilized our Java programming skills to create pseudocode for the application. 
+          This demonstrated our proficiency in Java development, as well as our understanding of fundamental programming concepts and algorithms."
+        />
+        <Project
           image="/assets/images/NetflixClone.jpg"
           link="https://netflix-clone-gilt-nu.vercel.app/"
           github="https://github.com/MichaelHeinzman/netflix-clone"
