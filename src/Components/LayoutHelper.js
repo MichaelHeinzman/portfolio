@@ -1,17 +1,25 @@
 import { Grid } from "@mui/material";
 import React from "react";
 
-const LayoutHelper = ({ id, background, children, width, fullView }) => {
+const LayoutHelper = ({
+  id,
+  background,
+  children,
+  width,
+  fullView,
+  height,
+  centerOfPage,
+}) => {
   return (
     <Grid
       id={id}
       container
-      minHeight={{ xs: fullView ? "100vh" : "auto" }}
+      minHeight={{ xs: fullView ? "100vh" : height ? height : "auto" }}
       padding={3}
       paddingTop={8}
       className={background ? "backgroundOne" : "backgroundTwo"}
       justifyContent="center"
-      alignItems="flex-start"
+      alignItems={centerOfPage ? "center" : "flex-start"}
     >
       <Grid
         item

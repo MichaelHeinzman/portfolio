@@ -3,7 +3,7 @@ import LayoutHelper from "../Components/LayoutHelper";
 import TextLayoutHelper from "../Components/TextLayoutHelper";
 const AboutMe = () => {
   return (
-    <LayoutHelper id="AboutMe">
+    <LayoutHelper id="AboutMe" height="50vh" centerOfPage>
       <TextLayoutHelper text="About Me" className="subtitle" />
       <TextLayoutHelper
         text="As a junior React Developer, I possess an impressive arsenal of skills

@@ -3,11 +3,13 @@ const Menu = ({ closeMenu, menu }) => {
   const tabClicked = (link, event) => {
     event.preventDefault();
     document.querySelector(link).scrollIntoView({
+      block: link === "#AboutMe" ? "center" : "start",
       behavior: "smooth",
     });
     closeMenu();
     window.history.pushState(null, null, link);
   };
+
   return (
     <div className="menu">
       {/* Close Button */}
