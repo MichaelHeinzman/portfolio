@@ -1,15 +1,8 @@
-import { Box, Grid, Typography } from "@mui/material";
+import { Box, Grid } from "@mui/material";
 import React from "react";
 import LayoutHelper from "../Components/LayoutHelper";
 import TextLayoutHelper from "../Components/TextLayoutHelper";
-const iconStyle = {
-  alignItems: "center",
-  cursor: "pointer",
-  display: "flex",
-  height: "3.5rem",
-  justifyContent: "center",
-  width: "3.5rem",
-};
+import Icon from "../Components/Icon";
 
 const Contact = () => {
   const handleEmailClick = (email) => {
@@ -19,7 +12,7 @@ const Contact = () => {
     window.open(mailtoLink);
   };
   return (
-    <LayoutHelper id="Contact">
+    <LayoutHelper id="Contact" width={9}>
       <TextLayoutHelper text="Contact" className="subtitle" />
       <Grid item container xs={12} gap={4} justifyContent="center">
         <Grid
@@ -41,13 +34,11 @@ const Contact = () => {
             alignItems="center"
             maxHeight="20%"
           >
-            <Box sx={iconStyle}>
-              <img
-                src="/assets/svg/Mail.svg"
-                alt="python"
-                className="tech-icon"
-              />
-            </Box>
+            <Icon
+              src="/assets/svg/Mail.svg"
+              alt="python"
+              className="tech-icon"
+            />
           </Grid>
           <Grid
             item
@@ -93,13 +84,11 @@ const Contact = () => {
             height="auto"
             maxHeight="20%"
           >
-            <Box sx={iconStyle}>
-              <img
-                src="/assets/svg/cell.svg"
-                alt="python"
-                className="tech-icon"
-              />
-            </Box>
+            <Icon
+              src="/assets/svg/cell.svg"
+              alt="python"
+              className="tech-icon"
+            />
           </Grid>
           <Grid item xs={12} sx={{ cursor: "pointer" }} height="80%" p={3}>
             <div className="title small">Primary</div>

@@ -1,22 +1,12 @@
-import { Button, Grid, Link } from "@mui/material";
-import { Box } from "@mui/system";
+import { Button, Grid } from "@mui/material";
 import React from "react";
 import LayoutHelper from "../Components/LayoutHelper";
 import ProfilePic from "../Components/ProfilePic";
 import TextLayoutHelper from "../Components/TextLayoutHelper";
-const Home = () => {
-  const iconStyle = {
-    alignItems: "center",
-    backgroundColor: "#fff",
-    borderRadius: "50%",
-    boxShadow: "0 0 10px rgba(0, 0, 0, 0.09)",
-    cursor: "pointer",
-    display: "flex",
-    height: "3.5rem",
-    justifyContent: "center",
-    width: "3.5rem",
-  };
+import Icon from "../Components/Icon";
+import TechIcon from "../Components/TechIcon";
 
+const Home = () => {
   const handleDownloadResume = () => {
     const resumeURL =
       "https://drive.google.com/file/d/1qUAGQ9ukjGznwP5nbQ2FK22_J7fv-TUJ/view?usp=sharing";
@@ -73,7 +63,7 @@ const Home = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <img
+                <Icon
                   src="/assets/svg/linkedinIcon.svg"
                   alt="linkedin"
                   className="icon"
@@ -84,7 +74,7 @@ const Home = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <img
+                <Icon
                   src="/assets/svg/githubIcon.svg"
                   alt="github"
                   className="icon"
@@ -178,46 +168,34 @@ const Home = () => {
           gap={3}
           flexWrap="wrap"
         >
-          <Box sx={iconStyle}>
-            <img src="/assets/svg/html.svg" alt="html" className="tech-icon" />
-          </Box>
-          <Box sx={iconStyle}>
-            <img src="/assets/svg/css.svg" alt="css" className="tech-icon" />
-          </Box>
-          <Box sx={iconStyle}>
-            <img src="/assets/svg/js.svg" alt="js" className="tech-icon" />
-          </Box>
-          <Box sx={iconStyle}>
-            <img
-              src="/assets/svg/typescript.svg"
-              alt="typescript"
-              className="tech-icon"
-            />
-          </Box>
-          <Box sx={iconStyle}>
-            <img
-              src="/assets/svg/react.svg"
-              alt="react"
-              className="tech-icon"
-            />
-          </Box>
-          <Box sx={iconStyle}>
-            <img src="/assets/svg/aws.svg" alt="aws" className="tech-icon" />
-          </Box>
-          <Box sx={iconStyle}>
-            <img
-              src="/assets/svg/firebase.svg"
-              alt="firebase"
-              className="tech-icon"
-            />
-          </Box>
-          <Box sx={iconStyle}>
-            <img
-              src="/assets/svg/python.svg"
-              alt="python"
-              className="tech-icon"
-            />
-          </Box>
+          <TechIcon
+            src="/assets/svg/html.svg"
+            alt="html"
+            className="tech-icon"
+          />
+          <TechIcon src="/assets/svg/css.svg" alt="css" className="tech-icon" />
+          <TechIcon src="/assets/svg/js.svg" alt="js" className="tech-icon" />
+          <TechIcon
+            src="/assets/svg/typescript.svg"
+            alt="typescript"
+            className="tech-icon"
+          />
+          <TechIcon
+            src="/assets/svg/react.svg"
+            alt="react"
+            className="tech-icon"
+          />
+          <TechIcon src="/assets/svg/aws.svg" alt="aws" className="tech-icon" />
+          <TechIcon
+            src="/assets/svg/firebase.svg"
+            alt="firebase"
+            className="tech-icon"
+          />
+          <TechIcon
+            src="/assets/svg/python.svg"
+            alt="python"
+            className="tech-icon"
+          />
         </Grid>
       </Grid>
     </LayoutHelper>

@@ -3,7 +3,6 @@ import Home from "./Pages/Home";
 import Portfolio from "./Pages/Portfolio";
 import Contact from "./Pages/Contact";
 import { Grid } from "@mui/material";
-
 const Content = ({ menuIsOpen, openMenu, closeMenu }) => {
   return (
     <Grid
@@ -20,7 +19,7 @@ const Content = ({ menuIsOpen, openMenu, closeMenu }) => {
         </Grid>
         <Grid item container xs={6} justifyContent="flex-end">
           <img
-            src="/Menubutton.svg"
+            src="/assets/svg/Menubutton.svg"
             className={`menu-button ${menuIsOpen ? "inactive" : ""}`}
             alt="menu button"
             onClick={openMenu}

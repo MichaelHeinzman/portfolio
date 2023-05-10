@@ -1,6 +1,6 @@
 import { Grid, Typography } from "@mui/material";
 import React from "react";
-
+import Icon from "../Components/Icon";
 const Project = ({ link, image, description, title, order, github }) => {
   return (
     <Grid
@@ -76,7 +76,7 @@ const Project = ({ link, image, description, title, order, github }) => {
             justifyContent="center"
           >
             <a href={github} target="_blank" rel="noreferrer">
-              <img
+              <Icon
                 src="/assets/svg/githubIcon.svg"
                 alt="github code"
                 className="icon"
