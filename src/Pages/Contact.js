@@ -42,7 +42,11 @@ const Contact = () => {
             maxHeight="20%"
           >
             <Box sx={iconStyle}>
-              <img src="/Mail.svg" alt="python" className="tech-icon" />
+              <img
+                src="/assets/svg/Mail.svg"
+                alt="python"
+                className="tech-icon"
+              />
             </Box>
           </Grid>
           <Grid
@@ -90,11 +94,15 @@ const Contact = () => {
             maxHeight="20%"
           >
             <Box sx={iconStyle}>
-              <img src="/cell.svg" alt="python" className="tech-icon" />
+              <img
+                src="/assets/svg/cell.svg"
+                alt="python"
+                className="tech-icon"
+              />
             </Box>
           </Grid>
           <Grid item xs={12} sx={{ cursor: "pointer" }} height="80%" p={3}>
-            <div className="title small">Personal</div>
+            <div className="title small">Primary</div>
             <div className="subtext">817-733-8494</div>
           </Grid>
         </Grid>

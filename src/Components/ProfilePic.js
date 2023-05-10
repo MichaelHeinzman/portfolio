@@ -24,7 +24,11 @@ const ProfilePic = () => {
         justifyContent="center"
         alignItems="center"
       >
-        <img src="/myPicture.jpg" alt="Profile" class="profile-picture" />
+        <img
+          src="/assets/images/myPicture.jpg"
+          alt="Profile"
+          class="profile-picture"
+        />
       </Grid>
     </Grid>
   );

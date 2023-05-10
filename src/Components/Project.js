@@ -76,7 +76,11 @@ const Project = ({ link, image, description, title, order, github }) => {
             justifyContent="center"
           >
             <a href={github} target="_blank" rel="noreferrer">
-              <img src="/githubIcon.svg" alt="github code" className="icon" />
+              <img
+                src="/assets/svg/githubIcon.svg"
+                alt="github code"
+                className="icon"
+              />
             </a>
           </Grid>
           {link && (

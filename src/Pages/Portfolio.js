@@ -35,14 +35,14 @@ const Portfolio = () => {
           and generate different types of network packets."
         />
         <Project
-          image="/NetflixClone.jpg"
+          image="/assets/images/NetflixClone.jpg"
           link="https://netflix-clone-gilt-nu.vercel.app/"
           github="https://github.com/MichaelHeinzman/netflix-clone"
           title="Netflix Clone"
           description="React web application that was developed using Next.js and Tailwind. Mimics Netflix design to gain a better understanding of how Next.js and Tailwind work."
         />
         <Project
-          image="/ReactAdmin.jpg"
+          image="/assets/images/ReactAdmin.jpg"
           link="https://gmyxrae9id.us-east-1.awsapprunner.com/"
           github="https://github.com/MichaelHeinzman/react-admin"
           title="React Admin"
@@ -50,7 +50,7 @@ const Portfolio = () => {
           Material UI theme with both light and dark modes."
         />
         <Project
-          image="/Pokedex.jpg"
+          image="/assets/images/Pokedex.jpg"
           link="https://xgkgmayj3k.us-east-1.awsapprunner.com/"
           github="https://github.com/MichaelHeinzman/pokedex"
           title="Pokedex"

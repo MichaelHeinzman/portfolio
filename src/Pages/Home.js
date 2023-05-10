@@ -73,14 +73,22 @@ const Home = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <img src="/linkedinIcon.svg" alt="linkedin" className="icon" />
+                <img
+                  src="/assets/svg/linkedinIcon.svg"
+                  alt="linkedin"
+                  className="icon"
+                />
               </a>
               <a
                 href="https://github.com/MichaelHeinzman"
                 target="_blank"
                 rel="noreferrer"
               >
-                <img src="/githubIcon.svg" alt="github" className="icon" />
+                <img
+                  src="/assets/svg/githubIcon.svg"
+                  alt="github"
+                  className="icon"
+                />
               </a>
             </Grid>
             <Grid
@@ -171,28 +179,44 @@ const Home = () => {
           flexWrap="wrap"
         >
           <Box sx={iconStyle}>
-            <img src="/html.svg" alt="html" className="tech-icon" />
+            <img src="/assets/svg/html.svg" alt="html" className="tech-icon" />
           </Box>
           <Box sx={iconStyle}>
-            <img src="/css.svg" alt="css" className="tech-icon" />
+            <img src="/assets/svg/css.svg" alt="css" className="tech-icon" />
           </Box>
           <Box sx={iconStyle}>
-            <img src="/js.svg" alt="js" className="tech-icon" />
+            <img src="/assets/svg/js.svg" alt="js" className="tech-icon" />
           </Box>
           <Box sx={iconStyle}>
-            <img src="/typescript.svg" alt="typescript" className="tech-icon" />
+            <img
+              src="/assets/svg/typescript.svg"
+              alt="typescript"
+              className="tech-icon"
+            />
           </Box>
           <Box sx={iconStyle}>
-            <img src="/react.svg" alt="react" className="tech-icon" />
+            <img
+              src="/assets/svg/react.svg"
+              alt="react"
+              className="tech-icon"
+            />
           </Box>
           <Box sx={iconStyle}>
-            <img src="/aws.svg" alt="aws" className="tech-icon" />
+            <img src="/assets/svg/aws.svg" alt="aws" className="tech-icon" />
           </Box>
           <Box sx={iconStyle}>
-            <img src="/firebase.svg" alt="firebase" className="tech-icon" />
+            <img
+              src="/assets/svg/firebase.svg"
+              alt="firebase"
+              className="tech-icon"
+            />
           </Box>
           <Box sx={iconStyle}>
-            <img src="/python.svg" alt="python" className="tech-icon" />
+            <img
+              src="/assets/svg/python.svg"
+              alt="python"
+              className="tech-icon"
+            />
           </Box>
         </Grid>
       </Grid>
