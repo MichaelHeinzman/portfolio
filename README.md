@@ -8,7 +8,7 @@ You can view my portfolio here:
 
 ## **Details**     
   Language : **JavaScript**     
-  Framework : **React**          
+  Library : **React**          
   Design Tool : **Figma**   
   Deployed Using: **AWS App Runner**
    
