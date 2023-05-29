@@ -68,6 +68,13 @@ const Portfolio = () => {
           description="Built a simple app in JavaScript and React for loading Pokemon data from the PokiAPI. Used Material UI for
           styling and React SWR for data loading."
         />
+        <Project
+          image="/assets/images/ChatApp.jpg"
+          link="https://8urr7hhmpp.us-east-1.awsapprunner.com/"
+          github="https://github.com/MichaelHeinzman/messaging"
+          title="Chat App"
+          description="Built a complex chat application combining Firebase Authentication, Firestore, AWS App Runner, Next.js, and Tailwind to create a stylish responsive chat experience."
+        />
       </Grid>
     </LayoutHelper>
   );
