@@ -9,10 +9,9 @@ import TechIcon from "../Components/TechIcon";
 const Home = () => {
   const handleDownloadResume = () => {
     const resumeURL =
-      "https://drive.google.com/file/d/1qUAGQ9ukjGznwP5nbQ2FK22_J7fv-TUJ/view?usp=sharing";
+      "/assets/pdfs/Michael_Heinzman_-_Junior_Software_Developer.pdf";
     window.open(resumeURL, "_blank");
   };
-
   return (
     <LayoutHelper id="Home" background fullView>
       {/* Header */}
