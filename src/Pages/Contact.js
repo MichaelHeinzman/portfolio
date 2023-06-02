@@ -58,10 +58,7 @@ const Contact = () => {
             onClick={() => handleEmailClick("seth@heinzman.net")}
             height="40%"
             p={3}
-          >
-            <div className="title small">Personal</div>
-            <div className="subtext">seth@heinzman.net</div>
-          </Grid>
+          ></Grid>
         </Grid>
         <Grid
           item
