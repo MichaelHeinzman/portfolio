@@ -9,7 +9,7 @@ import TechIcon from "../Components/TechIcon";
 const Home = () => {
   const handleDownloadResume = () => {
     const resumeURL =
-      "/assets/pdfs/Michael_Heinzman_-_Junior_Software_Developer.pdf";
+      "/assets/pdfs/Michael_Heinzman_Resume.pdf";
     window.open(resumeURL, "_blank");
   };
   return (
