@@ -1,7 +1,7 @@
 import { Grid, Typography } from "@mui/material";
 import React from "react";
 import Icon from "../Components/Icon";
-const Project = ({ link, image, description, title, order, github }) => {
+const Project = ({ link, image, description, title, order, github, pdf }) => {
   return (
     <Grid
       item
@@ -92,6 +92,18 @@ const Project = ({ link, image, description, title, order, github }) => {
                 className="portfolio-text"
               >
                 Live Demo
+              </a>
+            </Grid>
+          )}
+          {pdf && (
+            <Grid item container xs={6} justifyContent="center">
+              <a
+                href={pdf}
+                target="_blank"
+                rel="noreferrer"
+                className="portfolio-text"
+              >
+                View Report
               </a>
             </Grid>
           )}

@@ -24,6 +24,7 @@ const Portfolio = () => {
           description="Designed and developed a React Native application for calendar and time management. Applied best
           practices in software engineering, including a comprehensive report documenting the project's requirements,
           design, and testing. Demonstrated strong skills in project management and learning new technologies."
+          pdf="/assets/pdfs/FT Capstone Project (Final Draft).pdf"
         />
         <Project
           image=""
@@ -33,6 +34,7 @@ const Portfolio = () => {
           tool is useful for network administrators, penetration testers and security professionals who want to generate
           and send packets for testing purposes. This project contains a user interface that allows the user to configure
           and generate different types of network packets."
+          pdf="/assets/pdfs/Automatic_Network_Generator_Interface_Report.pdf"
         />
         <Project
           image=""
