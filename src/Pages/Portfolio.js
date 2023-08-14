@@ -46,6 +46,7 @@ const Portfolio = () => {
 
           To lay the foundation for implementation, we utilized our Java programming skills to create pseudocode for the application. 
           This demonstrated our proficiency in Java development, as well as our understanding of fundamental programming concepts and algorithms."
+          pdf="/assets/pdfs/Arch_And_Design_Final_Report_Team2.pdf"
         />
         <Project
           image="/assets/images/NetflixClone.jpg"
