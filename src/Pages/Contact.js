@@ -49,7 +49,7 @@ const Contact = () => {
             p={3}
           >
             <div className="title small">Primary</div>
-            <div className="subtext">mheinzman2017@my.fit.edu</div>
+            <div className="subtext">michael@heinzman.net</div>
           </Grid>
           <Grid
             item
