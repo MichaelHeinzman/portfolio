@@ -18,6 +18,13 @@ const Portfolio = () => {
         gap={5}
       >
         <Project
+          image="/assets/images/ThreeJS.jpg"
+          github="https://github.com/MichaelHeinzman/project_threejs_ai"
+          title="ThreeJS OpenAI Shirt Modeling Site"
+          description="Developed a cutting-edge web application using Vite and ReactJS, seamlessly integrated with Three.js for stunning 3D visuals. Leveraged OpenAI to add intelligent and interactive features, while ensuring smooth functionality through a Node.js backend. The sleek design was achieved with Tailwind CSS. The application is proudly hosted on an AWS S3 Bucket for optimal performance and accessibility."
+          link="http://threejsopenaishirt.s3-website-us-east-1.amazonaws.com/"
+        />
+        <Project
           image=""
           github="https://github.com/MichaelHeinzman/FT-Capstone-Project"
           title="FT Capstone Project"
