@@ -1,15 +1,17 @@
 import { Button, Grid } from "@mui/material";
 import React from "react";
-import LayoutHelper from "../Components/LayoutHelper";
-import ProfilePic from "../Components/ProfilePic";
-import TextLayoutHelper from "../Components/TextLayoutHelper";
-import Icon from "../Components/Icon";
-import TechIcon from "../Components/TechIcon";
+import {
+  LayoutHelper,
+  TextLayoutHelper,
+  ProfilePic,
+  Icon,
+  TechIcon,
+} from "../components";
+import { homeIntro } from "../constants";
 
 const Home = () => {
   const handleDownloadResume = () => {
-    const resumeURL =
-      "/assets/pdfs/Michael_Heinzman_Resume.pdf";
+    const resumeURL = "/assets/pdfs/Michael_Heinzman_Resume.pdf";
     window.open(resumeURL, "_blank");
   };
   return (
@@ -37,10 +39,7 @@ const Home = () => {
           gap={3}
         >
           <TextLayoutHelper text="Software Engineer" className="title" />
-          <TextLayoutHelper
-            text="Hi, I'm Michael Heinzman. A passionate Software Engineer based in Melbourne, Florida."
-            className="text"
-          />
+          <TextLayoutHelper text={homeIntro} className="text" />
           <Grid
             item
             container
@@ -58,7 +57,7 @@ const Home = () => {
               justifyContent={{ xs: "center", md: "flex-start" }}
             >
               <a
-                href="https://www.linkedin.com/in/michael-heinzman-00499715a/"
+                href="https://www.linkedin.com/in/michael-h-00499715a/"
                 target="_blank"
                 rel="noreferrer"
               >

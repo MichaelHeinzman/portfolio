@@ -1,7 +1,7 @@
-import AboutMe from "./Pages/AboutMe";
-import Home from "./Pages/Home";
-import Portfolio from "./Pages/Portfolio";
-import Contact from "./Pages/Contact";
+import AboutMe from "./pages/AboutMe";
+import Home from "./pages/Home";
+import Portfolio from "./pages/Portfolio";
+import Contact from "./pages/Contact";
 import { Grid } from "@mui/material";
 const Content = ({ menuIsOpen, openMenu, closeMenu }) => {
   return (

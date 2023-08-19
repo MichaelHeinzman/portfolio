@@ -1,8 +1,6 @@
-import { Box, Grid } from "@mui/material";
+import { Grid } from "@mui/material";
 import React from "react";
-import LayoutHelper from "../Components/LayoutHelper";
-import TextLayoutHelper from "../Components/TextLayoutHelper";
-import Icon from "../Components/Icon";
+import { LayoutHelper, TextLayoutHelper, Icon } from "../components";
 
 const Contact = () => {
   const handleEmailClick = (email) => {

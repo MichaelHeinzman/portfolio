@@ -1,8 +1,10 @@
 import { useCallback, useState } from "react";
-import "./CSS/App.css";
 import Content from "./Content";
 import Menu from "./Menu";
-import "./CSS/Styles.css";
+
+import "./css/App.css";
+import "./css/Styles.css";
+
 function App() {
   const [menu, setMenu] = useState(true);
   const openAndCloseMenu = useCallback((open) => {
