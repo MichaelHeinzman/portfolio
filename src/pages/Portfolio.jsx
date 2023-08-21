@@ -10,6 +10,9 @@ const Portfolio = () => {
       ? projects
       : projects.filter((project) => project.type === selectedType);
 
+  // Sort filtered projects by level in descending order
+  filteredProjects.sort((a, b) => b.level - a.level);
+
   const handleTypeFilter = (type) => {
     setSelectedType(type);
   };

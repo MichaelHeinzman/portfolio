@@ -7,6 +7,7 @@ const projects = [
       "Developed a cutting-edge web application using Vite and ReactJS, seamlessly integrated with Three.js for stunning 3D visuals. Leveraged OpenAI to add intelligent and interactive features, while ensuring smooth functionality through a Node.js backend. The sleek design was achieved with Tailwind CSS. The application is proudly hosted on an AWS S3 Bucket for optimal performance and accessibility.",
     link: "https://threejs-ai-shirt-static-site.vercel.app/",
     type: "react",
+    level: 5,
   },
   {
     image: "",
@@ -17,6 +18,7 @@ const projects = [
           design, and testing. Demonstrated strong skills in project management and learning new technologies.`,
     pdf: "/assets/pdfs/FT Capstone Project (Final Draft).pdf",
     type: "react native",
+    level: 5,
   },
   {
     image: "",
@@ -28,6 +30,7 @@ const projects = [
           and generate different types of network packets.`,
     pdf: "/assets/pdfs/Automatic_Network_Generator_Interface_Report.pdf",
     type: "other",
+    level: 5,
   },
   {
     image: "/assets/images/ChatApp.jpg",
@@ -35,6 +38,7 @@ const projects = [
     github: "https://github.com/MichaelHeinzman/messaging",
     title: "Chat App",
     type: "react",
+    level: 3,
     description:
       "Built a complex chat application combining Firebase Authentication, Firestore, AWS App Runner, Next.js, and Tailwind to create a stylish responsive chat experience.",
   },
@@ -51,6 +55,7 @@ const projects = [
           This demonstrated our proficiency in Java development, as well as our understanding of fundamental programming concepts and algorithms.`,
     pdf: "/assets/pdfs/Arch_And_Design_Final_Report_Team2.pdf",
     type: "other",
+    level: 3,
   },
   {
     image: "/assets/images/NetflixClone.jpg",
@@ -58,6 +63,7 @@ const projects = [
     github: "https://github.com/MichaelHeinzman/netflix-clone",
     title: "Netflix Clone",
     type: "react",
+    level: 5,
     description:
       "React web application that was developed using Next.js and Tailwind. Mimics Netflix design to gain a better understanding of how Next.js and Tailwind work.",
   },
@@ -67,6 +73,7 @@ const projects = [
     link: "https://react-admin-smoky.vercel.app/",
     github: "https://github.com/MichaelHeinzman/react-admin",
     title: "React Admin",
+    level: 2,
     description: `Created an administration site with JavaScript and Material UI, implementing advanced techniques for a
           Material UI theme with both light and dark modes.`,
     type: "react",
@@ -76,6 +83,7 @@ const projects = [
     link: "https://pokedex-mauve-eight.vercel.app/",
     github: "https://github.com/MichaelHeinzman/pokedex",
     title: "Pokedex",
+    level: 1,
     description: `Built a simple app in JavaScript and React for loading Pokemon data from the PokiAPI. Used Material UI for
           styling and React SWR for data loading.`,
     type: "react",
