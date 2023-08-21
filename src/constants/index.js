@@ -5,7 +5,7 @@ const projects = [
     github: "https://github.com/MichaelHeinzman/project_threejs_ai",
     description:
       "Developed a cutting-edge web application using Vite and ReactJS, seamlessly integrated with Three.js for stunning 3D visuals. Leveraged OpenAI to add intelligent and interactive features, while ensuring smooth functionality through a Node.js backend. The sleek design was achieved with Tailwind CSS. The application is proudly hosted on an AWS S3 Bucket for optimal performance and accessibility.",
-    link: "http://threejsopenaishirt.s3-website-us-east-1.amazonaws.com/",
+    link: "https://threejs-ai-shirt-static-site.vercel.app/",
   },
   {
     image: "",
@@ -51,7 +51,7 @@ const projects = [
 
   {
     image: "/assets/images/ReactAdmin.jpg",
-    link: "https://gmyxrae9id.us-east-1.awsapprunner.com/",
+    link: "https://react-admin-smoky.vercel.app/",
     github: "https://github.com/MichaelHeinzman/react-admin",
     title: "React Admin",
     description: `Created an administration site with JavaScript and Material UI, implementing advanced techniques for a
@@ -59,7 +59,7 @@ const projects = [
   },
   {
     image: "/assets/images/Pokedex.jpg",
-    link: "https://xgkgmayj3k.us-east-1.awsapprunner.com/",
+    link: "https://pokedex-mauve-eight.vercel.app/",
     github: "https://github.com/MichaelHeinzman/pokedex",
     title: "Pokedex",
     description: `Built a simple app in JavaScript and React for loading Pokemon data from the PokiAPI. Used Material UI for
@@ -68,7 +68,7 @@ const projects = [
 
   {
     image: "/assets/images/ChatApp.jpg",
-    link: "https://8urr7hhmpp.us-east-1.awsapprunner.com/",
+    link: "https://messaging-khaki.vercel.app/",
     github: "https://github.com/MichaelHeinzman/messaging",
     title: "Chat App",
     description:
