@@ -6,6 +6,7 @@ const projects = [
     description:
       "Developed a cutting-edge web application using Vite and ReactJS, seamlessly integrated with Three.js for stunning 3D visuals. Leveraged OpenAI to add intelligent and interactive features, while ensuring smooth functionality through a Node.js backend. The sleek design was achieved with Tailwind CSS. The application is proudly hosted on an AWS S3 Bucket for optimal performance and accessibility.",
     link: "https://threejs-ai-shirt-static-site.vercel.app/",
+    type: "react",
   },
   {
     image: "",
@@ -15,6 +16,7 @@ const projects = [
           practices in software engineering, including a comprehensive report documenting the project's requirements,
           design, and testing. Demonstrated strong skills in project management and learning new technologies.`,
     pdf: "/assets/pdfs/FT Capstone Project (Final Draft).pdf",
+    type: "react native",
   },
   {
     image: "",
@@ -25,8 +27,17 @@ const projects = [
           and send packets for testing purposes. This project contains a user interface that allows the user to configure
           and generate different types of network packets.`,
     pdf: "/assets/pdfs/Automatic_Network_Generator_Interface_Report.pdf",
+    type: "other",
   },
-
+  {
+    image: "/assets/images/ChatApp.jpg",
+    link: "https://messaging-khaki.vercel.app/",
+    github: "https://github.com/MichaelHeinzman/messaging",
+    title: "Chat App",
+    type: "react",
+    description:
+      "Built a complex chat application combining Firebase Authentication, Firestore, AWS App Runner, Next.js, and Tailwind to create a stylish responsive chat experience.",
+  },
   {
     image: "",
     github:
@@ -39,12 +50,14 @@ const projects = [
           To lay the foundation for implementation, we utilized our Java programming skills to create pseudocode for the application. 
           This demonstrated our proficiency in Java development, as well as our understanding of fundamental programming concepts and algorithms.`,
     pdf: "/assets/pdfs/Arch_And_Design_Final_Report_Team2.pdf",
+    type: "other",
   },
   {
     image: "/assets/images/NetflixClone.jpg",
     link: "https://netflix-clone-gilt-nu.vercel.app/",
     github: "https://github.com/MichaelHeinzman/netflix-clone",
     title: "Netflix Clone",
+    type: "react",
     description:
       "React web application that was developed using Next.js and Tailwind. Mimics Netflix design to gain a better understanding of how Next.js and Tailwind work.",
   },
@@ -56,6 +69,7 @@ const projects = [
     title: "React Admin",
     description: `Created an administration site with JavaScript and Material UI, implementing advanced techniques for a
           Material UI theme with both light and dark modes.`,
+    type: "react",
   },
   {
     image: "/assets/images/Pokedex.jpg",
@@ -64,15 +78,7 @@ const projects = [
     title: "Pokedex",
     description: `Built a simple app in JavaScript and React for loading Pokemon data from the PokiAPI. Used Material UI for
           styling and React SWR for data loading.`,
-  },
-
-  {
-    image: "/assets/images/ChatApp.jpg",
-    link: "https://messaging-khaki.vercel.app/",
-    github: "https://github.com/MichaelHeinzman/messaging",
-    title: "Chat App",
-    description:
-      "Built a complex chat application combining Firebase Authentication, Firestore, AWS App Runner, Next.js, and Tailwind to create a stylish responsive chat experience.",
+    type: "react",
   },
 ];
 
