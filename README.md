@@ -3,12 +3,12 @@
 
 ## **Usage**
 You can view my portfolio here:
-[Click Here to View Portfolio](https://hip6g7mrvc.us-east-1.awsapprunner.com/)
+[Click Here to View Portfolio](https://michaelheinzman.com)
 
 
 ## **Details**     
   Language : **JavaScript**     
   Library : **React**          
   Design Tool : **Figma**   
-  Deployed Using: **AWS App Runner**
+  Deployed Using: **Vercel**
    
