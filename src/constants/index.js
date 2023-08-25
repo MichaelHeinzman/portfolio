@@ -5,7 +5,7 @@ const projects = [
     github: "https://github.com/MichaelHeinzman/project_threejs_ai",
     description:
       "Developed a cutting-edge web application using Vite and ReactJS, seamlessly integrated with Three.js for stunning 3D visuals. Leveraged OpenAI to add intelligent and interactive features, while ensuring smooth functionality through a Node.js backend. The sleek design was achieved with Tailwind CSS. The application is proudly hosted on an AWS S3 Bucket for optimal performance and accessibility.",
-    link: "https://threejs-ai-shirt-static-site.vercel.app/",
+    link: "https://ai-shirt-threejs.michaelheinzman.com",
     type: "react",
     level: 5,
   },
@@ -34,7 +34,7 @@ const projects = [
   },
   {
     image: "/assets/images/ChatApp.jpg",
-    link: "https://messaging-khaki.vercel.app/",
+    link: "https://chat-app.michaelheinzman.com",
     github: "https://github.com/MichaelHeinzman/messaging",
     title: "Chat App",
     type: "react",
@@ -59,7 +59,7 @@ const projects = [
   },
   {
     image: "/assets/images/NetflixClone.jpg",
-    link: "https://netflix-clone-gilt-nu.vercel.app/",
+    link: "https://netflix-clone.michaelheinzman.com",
     github: "https://github.com/MichaelHeinzman/netflix-clone",
     title: "Netflix Clone",
     type: "react",
