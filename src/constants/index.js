@@ -34,8 +34,8 @@ const projects = [
   },
   {
     image: "/assets/images/ChatApp.jpg",
-    link: "https://chat-app.michaelheinzman.com",
-    github: "https://messaging-mmipz5mxe-michaelheinzman.vercel.app",
+    link: "https://messaging-mmipz5mxe-michaelheinzman.vercel.app/login",
+    github: "https://github.com/MichaelHeinzman/messaging",
     title: "Chat App",
     type: "react",
     level: 3,
