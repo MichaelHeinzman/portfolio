@@ -68,7 +68,7 @@ const projects = [
       "React web application that was developed using Next.js and Tailwind. Mimics Netflix design to gain a better understanding of how Next.js and Tailwind work.",
   },
   {
-    image: "/assets/images/NetflixClone.jpg",
+    image: "/assets/images/Facebook.jpg",
     link: "https://vercel.com/michaelheinzman/facebook-clone/3e23jWVNBhyLMoDigvkJDEQQEPVd",
     github: "https://github.com/MichaelHeinzman/facebook-clone",
     title: "Facebook Clone",
