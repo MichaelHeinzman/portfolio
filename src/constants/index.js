@@ -75,7 +75,7 @@ const projects = [
     type: "react",
     level: 5,
     description:
-      "Currently in the process of creating a Facebook like application from scratch by copying what I see from facebook. Utilized Next.js, TailwindCSS, Shadcn/ui, Prisma, Mongodb. I wanted to showcase this even though it's not done yet.",
+      "Currently in the process of creating a Facebook like application from scratch by copying what I see from facebook. Utilized Next.js, TailwindCSS, Shadcn/ui, Prisma, Mongodb, and Cloudinary. I wanted to showcase this even though it's not done yet.",
   },
 ];
 
