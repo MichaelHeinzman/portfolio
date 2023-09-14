@@ -69,7 +69,7 @@ const projects = [
   },
   {
     image: "/assets/images/Facebook.jpg",
-    link: "https://vercel.com/michaelheinzman/facebook-clone/3e23jWVNBhyLMoDigvkJDEQQEPVd",
+    link: "https://facebook-clone-zeta-five.vercel.app/",
     github: "https://github.com/MichaelHeinzman/facebook-clone",
     title: "Facebook Clone",
     type: "react",
