@@ -67,6 +67,16 @@ const projects = [
     description:
       "React web application that was developed using Next.js and Tailwind. Mimics Netflix design to gain a better understanding of how Next.js and Tailwind work.",
   },
+  {
+    image: "/assets/images/NetflixClone.jpg",
+    link: "https://vercel.com/michaelheinzman/facebook-clone/3e23jWVNBhyLMoDigvkJDEQQEPVd",
+    github: "https://github.com/MichaelHeinzman/facebook-clone",
+    title: "Facebook Clone",
+    type: "react",
+    level: 5,
+    description:
+      "Currently in the process of creating a Facebook like application from scratch by copying what I see from facebook. Utilized Next.js, TailwindCSS, Shadcn/ui, Prisma, Mongodb. I wanted to showcase this even though it's not done yet.",
+  },
 ];
 
 const homeIntro =
