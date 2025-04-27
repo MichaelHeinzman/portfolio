@@ -1,0 +1,19 @@
+.text-layout-helper {
+  width: 100%;
+  display: block;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+  .text-layout-helper {
+    text-align: left;
+    margin-bottom: 1.5rem;
+  }
+}
+
+.title.small {
+  padding-inline: 1rem;
+  margin: 0;
+  line-height: 1.5;
+}
