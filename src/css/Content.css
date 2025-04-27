@@ -1,0 +1,42 @@
+/* header: two columns (title | menu button) */
+.header {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  padding: 1rem;
+  height: 2rem;
+}
+
+/* title styling (you can tweak font-size as needed) */
+.title.small {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+/* wrapper to push the button to the right */
+.menu-container {
+  display: flex;
+  justify-self: end;
+}
+
+/* menu button sizing and interactivity */
+.menu-button {
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+}
+
+/* hide the button when menu is open */
+.menu-button.inactive {
+  visibility: hidden;
+}
+
+/* the main page sections, stacked but centered */
+.sections {
+  display: grid;
+  grid-auto-rows: min-content;
+  justify-items: center;
+  align-items: start;
+  gap: 2rem;
+}
+

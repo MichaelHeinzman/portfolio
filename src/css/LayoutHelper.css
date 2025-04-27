@@ -1,0 +1,22 @@
+/* Outer container: grid + horizontal centering */
+.layout-helper {
+  width: 100%;
+  display: grid;
+  justify-items: center;
+  align-items: flex-start;
+  padding: 64px 24px 24px;
+}
+
+/* Optional helper for centering both axes */
+.layout-helper.center-page {
+  align-items: center;
+  padding: 0;
+}
+
+/* Inner wrapper: grid for children, with gap and bottom margin */
+.layout-inner {
+  display: grid;
+  grid-auto-rows: min-content;
+  gap: 1.25rem; /* matches MUI gap={5} (5 * 0.25rem default) */
+  margin-bottom: 1.25rem;
+}
